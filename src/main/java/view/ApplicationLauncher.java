@@ -47,16 +47,17 @@ public class ApplicationLauncher extends Application {
         this.primaryStage = primaryStage;
         getSceneManager().showWelcomeScene();
         //Stap 1: Hoe werkt een javaFX applicatie?
-        Pane root = new Pane();
+        /*Pane root = new Pane();
         root.getChildren().add(new Button("Klik op mij!"));
         root.getChildren().add(new TextField("Hi!"));
         Scene myFirstScene = new Scene(root, 300, 400);
         primaryStage.setScene(myFirstScene);
         primaryStage.show();
+         */
 
 
         //Stap 2: Hoe laadt je een fxml bestand? En wat is een fxml betand?
-        try {
+        /*try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/NieuweKlant.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
@@ -64,7 +65,7 @@ public class ApplicationLauncher extends Application {
             primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        } */
 
         /*
         Stap 3: Uitleg elementen in een fxml-bestand, oa controls met event-handling

@@ -57,4 +57,8 @@ public class WijzigKlantController {
     }
 
 
+    public void doCancel(ActionEvent actionEvent) {
+        ApplicationLauncher.getSceneManager().showCustomerListScene();
+    }
 }
+
