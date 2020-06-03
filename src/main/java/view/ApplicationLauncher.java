@@ -47,12 +47,12 @@ public class ApplicationLauncher extends Application {
         this.primaryStage = primaryStage;
         getSceneManager().showWelcomeScene();
         //Stap 1: Hoe werkt een javaFX applicatie?
-        /*Pane root = new Pane();
-        root.getChildren().add(new Button("Klik hier maar eens"));
-        root.getChildren().add(new TextField("Hier staat iets."));
+        Pane root = new Pane();
+        root.getChildren().add(new Button("Klik op mij!"));
+        root.getChildren().add(new TextField("Hi!"));
         Scene myFirstScene = new Scene(root, 300, 400);
         primaryStage.setScene(myFirstScene);
-        primaryStage.show();*/
+        primaryStage.show();
 
 
         //Stap 2: Hoe laadt je een fxml bestand? En wat is een fxml betand?
