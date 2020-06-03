@@ -56,7 +56,7 @@ public class ApplicationLauncher extends Application {
 
 
         //Stap 2: Hoe laadt je een fxml bestand? En wat is een fxml betand?
-        /*try {
+        try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/NieuweKlant.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
@@ -64,7 +64,7 @@ public class ApplicationLauncher extends Application {
             primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }
 
         /*
         Stap 3: Uitleg elementen in een fxml-bestand, oa controls met event-handling
